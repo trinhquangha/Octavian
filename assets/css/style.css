@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  color: #6a727f;
+  background-color: #222831;
+  overflow-x: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: "Open sans", sans-serif;
+  font-size: 1.6rem;
+  outline: none;
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

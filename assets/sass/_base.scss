@@ -1,0 +1,41 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: $primary-font;
+	font-size: 62.5%;
+	line-height: 1;
+	color: $gray-light;
+	background-color: $gray-darker;
+	overflow-x: hidden;
+}
+input,
+button,
+textarea,
+select {
+	font-family: $primary-font;
+	font-size: 1.6rem;
+	outline: none;
+	border: 0;
+}
+input {
+	line-height: normal;
+}
+a {
+	color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $secondary-font;
+	color: $gray;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
