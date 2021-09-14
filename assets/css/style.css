@@ -76,6 +76,54 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: #393e46;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: url("../images/img1.jpg") no-repeat top/100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+main {
+  min-height: 200vh;
+}
+
+.header {
+  border-bottom: 1px solid white;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.header-tool {
+  display: flex;
+  align-items: center;
+  gap: 0 50px;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0 50px;
+}
+.navbar__item-link {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

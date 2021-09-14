@@ -1,0 +1,28 @@
+.header {
+	border-bottom: 1px solid white;
+	&-main {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 40px 0;
+	}
+	&-tool {
+		display: flex;
+		align-items: center;
+		gap: 0 50px;
+	}
+}
+
+.navbar {
+	&-list {
+		display: flex;
+		align-items: center;
+		color: white;
+		gap: 0 50px;
+	}
+
+	&__item-link {
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+}

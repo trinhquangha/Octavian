@@ -34,8 +34,23 @@ h6 {
 	color: $gray;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+	background: url('../images/img1.jpg') no-repeat top / 100%;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+}
+
+main {
+	min-height: 200vh;
 }
