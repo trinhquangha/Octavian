@@ -3,7 +3,7 @@ html {
 }
 body {
 	font-family: $primary-font;
-	font-size: 62.5%;
+	font-size: 18px;
 	line-height: 1;
 	color: $gray-light;
 	background-color: $gray-darker;
@@ -14,7 +14,7 @@ button,
 textarea,
 select {
 	font-family: $primary-font;
-	font-size: 1.6rem;
+	font-size: 16px;
 	outline: none;
 	border: 0;
 }
@@ -31,7 +31,6 @@ h4,
 h5,
 h6 {
 	font-family: $secondary-font;
-	color: $gray;
 }
 
 ul {
@@ -49,6 +48,26 @@ ul {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+}
+
+.btn {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	height: 55px;
+	padding: 0 70px;
+	border-radius: 4px;
+	display: inline-flex;
+	align-items: center;
+
+	&--primary {
+		color: white;
+		background-image: linear-gradient(
+			to right,
+			$primary-color,
+			$secondary-color
+		);
+	}
 }
 
 main {

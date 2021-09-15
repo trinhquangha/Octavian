@@ -1,0 +1,26 @@
+.feature {
+	padding: 150px 0 200px;
+	&-main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 0 30px;
+	}
+	&__item {
+		background-color: $gray-dark;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		border-radius: 4px;
+		padding: 65px 40px;
+	}
+	&__icon {
+		margin-bottom: 35px;
+	}
+	&__title {
+		color: white;
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+}

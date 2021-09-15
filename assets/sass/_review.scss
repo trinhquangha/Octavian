@@ -1,0 +1,42 @@
+.review {
+	padding-bottom: 190px;
+	&__header {
+		max-width: 500px;
+		margin: 0 auto 60px;
+		text-align: center;
+	}
+	&__item {
+		max-width: 840px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+		background-color: $gray-darker;
+		border-radius: 8px;
+		padding: 75px 100px 60px;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+		position: relative;
+	}
+	&__icon {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__desc {
+		color: white;
+		font-size: 30px;
+		line-height: lineH(48, 30);
+		margin-bottom: 40px;
+	}
+	&__avatar {
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-bottom: 20px;
+		filter: grayscale(50%);
+	}
+}

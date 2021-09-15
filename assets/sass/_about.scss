@@ -1,0 +1,26 @@
+.about {
+	padding-bottom: 190px;
+	display: block;
+	// .container {
+	// 	position: relative;
+	// }
+	&-main {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0 70px;
+	}
+	&__content {
+		max-width: 470px;
+	}
+	&__phone {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-width: initial;
+	}
+	&__img {
+		position: relative;
+	}
+}
